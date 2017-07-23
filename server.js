@@ -5,10 +5,10 @@ const app = express();
 const Pusher = require('pusher');
 
 const pusher = new Pusher({
-    appId: 'APP_ID',
-    key: 'APP_KEY',
-    secret: 'SECRET',
-    cluster: 'YOUR CLUSTER',
+    appId: '371322',
+    key: '4f43f4dbebd6abd8f20f',
+    secret: 'f266d69ce2a12d519d0c',
+    cluster: 'us2',
     encrypted: true
 });
 
